@@ -19,7 +19,7 @@ from core.gemini_helper import gemini_explanation
 
 
 st.set_page_config(page_title="IA Química Orgánica ULTRA", page_icon="🧪", layout="wide")
-st.set_page_config(page_title="DESARROLLADO POR: CHRISTIAN DAVID POCOL FRANCO INGENIERO ELECTRONICO", page_icon="💡", layout="wide")
+st.set_page_config(page_title="DESARROLLADO POR: CHRISTIAN DAVID POCOL FRANCO INGENIERO ELECTRONICO", layout="wide")
 
 EXAMPLES = json.loads(Path("data/examples.json").read_text(encoding="utf-8"))
 
