@@ -1,7 +1,7 @@
-streamlit
-rdkit
+streamlit==1.38.0
+rdkit-pypi==2022.9.5
 pandas
-pillow
+pillow==10.4.0
 python-dotenv
 google-generativeai
-requests
+requests==2.31.0
