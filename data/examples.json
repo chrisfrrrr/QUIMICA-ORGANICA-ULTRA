@@ -1,0 +1,163 @@
+{
+    "analizador": [
+        {
+            "label": "Etanol",
+            "input_mode": "Nombre / IUPAC",
+            "molecule": "ethanol"
+        },
+        {
+            "label": "Acetona",
+            "input_mode": "Nombre / IUPAC",
+            "molecule": "propan-2-one"
+        },
+        {
+            "label": "Benceno",
+            "input_mode": "Nombre / IUPAC",
+            "molecule": "benzene"
+        },
+        {
+            "label": "Ácido acético",
+            "input_mode": "Nombre / IUPAC",
+            "molecule": "acetic acid"
+        },
+        {
+            "label": "SMILES: 2-propanol",
+            "input_mode": "SMILES",
+            "molecule": "CC(O)C"
+        }
+    ],
+    "iupac": [
+        {
+            "label": "Butan-2-ol",
+            "name": "butan-2-ol"
+        },
+        {
+            "label": "2-bromobutane",
+            "name": "2-bromobutane"
+        },
+        {
+            "label": "Ethyl ethanoate",
+            "name": "ethyl ethanoate"
+        },
+        {
+            "label": "Cyclohexene",
+            "name": "cyclohexene"
+        },
+        {
+            "label": "Benzoic acid",
+            "name": "benzoic acid"
+        }
+    ],
+    "reacciones": [
+        {
+            "label": "SN2: bromoetano + NaOH",
+            "input_mode": "Nombre / IUPAC",
+            "substrate": "bromoethane",
+            "reagent": "NaOH"
+        },
+        {
+            "label": "E2: tert-butil bromuro + KOH calor",
+            "input_mode": "Nombre / IUPAC",
+            "substrate": "tert-butyl bromide",
+            "reagent": "KOH calor"
+        },
+        {
+            "label": "Adición: eteno + HBr",
+            "input_mode": "Nombre / IUPAC",
+            "substrate": "ethene",
+            "reagent": "HBr"
+        },
+        {
+            "label": "Oxidación suave: etanol + PCC",
+            "input_mode": "Nombre / IUPAC",
+            "substrate": "ethanol",
+            "reagent": "PCC"
+        },
+        {
+            "label": "SEA: benceno + Br2/FeBr3",
+            "input_mode": "Nombre / IUPAC",
+            "substrate": "benzene",
+            "reagent": "Br2 FeBr3"
+        }
+    ],
+    "aromaticidad": [
+        {
+            "label": "Benceno",
+            "input_mode": "Nombre / IUPAC",
+            "molecule": "benzene"
+        },
+        {
+            "label": "Tolueno",
+            "input_mode": "Nombre / IUPAC",
+            "molecule": "toluene"
+        },
+        {
+            "label": "Ciclohexano",
+            "input_mode": "Nombre / IUPAC",
+            "molecule": "cyclohexane"
+        },
+        {
+            "label": "Ciclopentadieno",
+            "input_mode": "Nombre / IUPAC",
+            "molecule": "cyclopenta-1,3-diene"
+        }
+    ],
+    "estereoquimica": [
+        {
+            "label": "Centro quiral definido",
+            "input_mode": "SMILES",
+            "molecule": "F[C@H](Cl)Br"
+        },
+        {
+            "label": "Centro opuesto",
+            "input_mode": "SMILES",
+            "molecule": "F[C@@H](Cl)Br"
+        },
+        {
+            "label": "2-butanol sin estereoquímica",
+            "input_mode": "Nombre / IUPAC",
+            "molecule": "butan-2-ol"
+        },
+        {
+            "label": "Ácido láctico",
+            "input_mode": "Nombre / IUPAC",
+            "molecule": "lactic acid"
+        }
+    ],
+    "comparar": [
+        {
+            "label": "Enantiómeros probables",
+            "a": "F[C@H](Cl)Br",
+            "b": "F[C@@H](Cl)Br"
+        },
+        {
+            "label": "Idénticos",
+            "a": "CCO",
+            "b": "CCO"
+        },
+        {
+            "label": "Constitucionales diferentes",
+            "a": "CCO",
+            "b": "COC"
+        },
+        {
+            "label": "Estereoisómeros alqueno",
+            "a": "C/C=C/C",
+            "b": "C/C=C\\C"
+        }
+    ],
+    "gemini": [
+        {
+            "label": "SN1 vs SN2",
+            "prompt": "Explica la diferencia entre SN1 y SN2 con ejemplos."
+        },
+        {
+            "label": "E1 vs E2",
+            "prompt": "Explica cómo distinguir E1 y E2 en química orgánica."
+        },
+        {
+            "label": "Aromaticidad",
+            "prompt": "Explica la regla de Hückel con ejemplos sencillos."
+        }
+    ]
+}

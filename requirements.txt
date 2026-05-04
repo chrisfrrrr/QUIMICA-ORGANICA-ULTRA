@@ -1,0 +1,7 @@
+streamlit
+rdkit
+pandas
+pillow
+python-dotenv
+google-generativeai
+requests
